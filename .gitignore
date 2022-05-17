@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Sfm added.
+build-*/*
+*.user

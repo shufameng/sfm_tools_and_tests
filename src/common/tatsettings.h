@@ -23,6 +23,11 @@ public:
     int     convToQtImg_sconv_saveMethod;
     QString convToQtImg_bconv_srcPath;
     QString convToQtImg_bconv_suffixes;
+
+    QString httpSvrForTimeoutTest_ip;
+    uint httpSvrForTimeoutTest_port;
+
+    QString httpClientForTimeoutTest_url;
 };
 
 #endif // TATSETTINGS_H

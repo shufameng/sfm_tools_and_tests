@@ -44,8 +44,6 @@
          <height>0</height>
         </size>
        </property>
-       <widget class="ConvToQtImgTool" name="page_convToQtImg"/>
-       <widget class="QWidget" name="page_2"/>
       </widget>
      </widget>
     </item>
@@ -63,14 +61,6 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>ConvToQtImgTool</class>
-   <extends>QWidget</extends>
-   <header>convtoqtimgtool.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>

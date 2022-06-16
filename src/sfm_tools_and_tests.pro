@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -21,18 +21,27 @@ SOURCES += \
     common/tatsettings.cpp \
     main.cpp \
     tatwindow.cpp \
-    tools/convtoqtimgtool.cpp
+    tools/convtoqtimgtool.cpp \
+    tools/httpclientfortimeouttesttool.cpp \
+    tools/httpserverfortimeouttesttool.cpp \
+    tools/war3editortool.cpp
 
 HEADERS += \
     common/tatapp.h \
     common/tatlogger.h \
     common/tatsettings.h \
     tatwindow.h \
-    tools/convtoqtimgtool.h
+    tools/convtoqtimgtool.h \
+    tools/httpclientfortimeouttesttool.h \
+    tools/httpserverfortimeouttesttool.h \
+    tools/war3editortool.h
 
 FORMS += \
     tatwindow.ui \
-    tools/convtoqtimgtool.ui
+    tools/convtoqtimgtool.ui \
+    tools/httpclientfortimeouttesttool.ui \
+    tools/httpserverfortimeouttesttool.ui \
+    tools/war3editortool.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
